@@ -13,6 +13,7 @@ int countdown(int n) {
 }
 
 int main() {
+    /*when number n is too big it can cause a stack overflow (segmentation fault). See memory management for more details.*/
     countdown(5);
     return 0;
 }
